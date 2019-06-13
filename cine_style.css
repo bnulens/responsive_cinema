@@ -4,7 +4,8 @@
 
 }
 
-/* IPHONE 5S minimum (320x568*/
+/* IPHONE 5S minimum (320x568)*/
+/* SCREEN #1 - YELLOW*/
 @media only screen and (min-width: 300px) and (max-width: 768px){
 
 a {
@@ -81,6 +82,7 @@ footer {
 }
 }
 
+/* SCREEN 2 - SEAFOAM GREEN*/
 @media only screen and (min-width: 760px) and (max-width: 992px){
 
 a {
@@ -101,7 +103,6 @@ body {
 }
 
 .logo {
-    display: inline-block;
     width: 995px;
     height: auto;
 }
@@ -124,7 +125,7 @@ body {
     position: absolute;
     width: 100%;
     height: auto;
-    top: 93px;
+    top: 80px;
     background-color: #00ffb3;
     padding-bottom: 30px;
     z-index: 3;
@@ -174,5 +175,90 @@ footer {
 
 }
 
-/* @media only screen and (min-width: 900px) and (max-width: 1200px) */
+/*  */
+/* SCREEN 3 - BLUE*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    a {
+        text-decoration: none;
+        color: #333333;
+        }
+        
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Josefin Sans', cursive;
+        color: #333333;
+        }
+    
+    .logo {
+        background-image: linear-gradient(to bottom,rgba(0, 118, 253, 0.411), rgb(0, 25, 54));
+        width: 100%;
+        height: auto;
+    }
+        
+    .logo h1{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        font-family: 'Pacifico', cursive;
+        font-size: 80px;
+        width: 100%;
+        height: auto;
+        z-index: 3;
+    }
+    
+    .logo h6{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        font-size: 14px;
+        width: 100%;
+        height: auto;
+        top: 130px;
+        padding-bottom: 30px;
+        z-index: 3;
+        }
+        
+    .paciSubNav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 20px;
+        top: 150px;
+        width: 100%;
+        height: auto;   
+    }
+        
+    .paciSubNav a{
+        color: #e9e9e9;
+        padding: 20px;
+        height: auto;
+        transition: all .5s ease-in-out;
+    }  
+    
+    .background {
+        display: block;
+        position: fixed;
+        justify-content: center;
+        align-content: center;
+        max-width: 1200px;
+        height: auto;
+        z-index: -10;
+        filter: blur(3px);
+    }
+    
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 10px;
+        z-index: 5;
+        font-size: 8px;
+        width: 100%;
+        height: auto;
+    }  
+}
 /* @media only screen and (min-width: 1080px) and (max-width: 1620px) */
