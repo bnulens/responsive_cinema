@@ -20,12 +20,7 @@ body {
     color: #333333;
 }
 
-.paciHeadBar {
-    width: 100%;
-    height: auto;
-}
-
-.logo h1{
+.logo h1 {
     display: flex;
     justify-content: center;
     position: absolute;
@@ -54,13 +49,13 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    font-size: 20px;
     top: 220px;
     width: 100%;
     height: auto;
 }
 
 .paciSubNav a{
+    font-size: 20px;
     padding: 25px;
     height: auto;
 }
@@ -90,30 +85,19 @@ footer {
 @media only screen and (min-width: 760px) and (max-width: 992px){
 
 a {
-    text-decoration: none;
-    color: #333333;
-    }
-    
-body {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Josefin Sans', cursive;
-    color: #333333;
-    /* background-color: pink; */
-    }
-    
-.paciHeadBar {
-    background-color: #00ffb3;
+    /* text-decoration: none;
+    color: #333333; */
 }
-    
+
+
 .logo h1{
     display: flex;
     justify-content: center;
     position: absolute;
     font-family: 'Pacifico', cursive;
-    font-size: 50px;
     width: 100%;
     height: auto;
+    font-size: 50px;
     background-color: #00ffb3;
     z-index: 3;
 }
@@ -450,9 +434,4 @@ footer {
         width: 100%;
         height: auto;
     }
-@media only screen and (min-width: 1620px) and (max-width: 1820px){ 
-    footer {
-
-    }
-
-}
+@media only screen and (min-width: 1620px) and (max-width: 1820px){ }
